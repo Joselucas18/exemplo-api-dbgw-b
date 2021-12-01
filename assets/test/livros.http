@@ -1,10 +1,8 @@
-@url = https://8080-beige-donkey-vyi3wll1.ws-us17.gitpod.io
-
-GET {{url}}/filmes
+GET https://8080-yellow-fish-9s79cnef.ws-us20.gitpod.io/filmes
 
 ###
 
-POST {{url}}/filmes
+POST https://8080-yellow-fish-9s79cnef.ws-us20.gitpod.io/filmes
 Content-Type: application/json
 
 {
@@ -12,9 +10,17 @@ Content-Type: application/json
 }
 
 ###
-PUT {{url}}/filmes/5
+PUT https://8080-yellow-fish-9s79cnef.ws-us20.gitpod.io/filmes/5
 Content-Type: application/json
 
 {
     "titulo" : "Ghostbusters"
+}
+
+###
+DELETE https://8080-yellow-fish-9s79cnef.ws-us20.gitpod.io/filmes
+Content-Type: application/json
+
+{
+    "id" : 5
 }
